@@ -3,9 +3,9 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    print("Merdali!")
+    print("Merdali 8080!")
     return "Hello World!"
 
 if __name__ == "__main__":
-    print("Here")
+    print("Merdo 8080")
     application.run(port=8080)
