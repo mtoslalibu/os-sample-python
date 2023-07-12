@@ -8,4 +8,4 @@ def hello():
 
 if __name__ == "__main__":
     print("Here")
-    application.run(debug=True, port=8080)
+    application.run(port=8080)
