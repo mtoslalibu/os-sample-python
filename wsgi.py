@@ -7,4 +7,5 @@ def hello():
     return "Hello World!"
 
 if __name__ == "__main__":
-    application.run()
+    print("Here")
+    application.run(debug=True, port=8080)
